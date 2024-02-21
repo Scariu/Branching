@@ -1,5 +1,5 @@
 body {
-  background: #342E37;
+  background-color: #342E37;
   }
 
 .container {
@@ -57,3 +57,34 @@ form {
   box-shadow: none;
   top: 6px; 
 } 
+
+div {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 30px;
+  font-family: 'Space Mono', monospace;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  border-radius: 10px;
+  background-color: #c1b9d0;
+  text-align: center;
+  padding: 1rem;
+  animation-name: colorbackground;
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorbackground {
+  from {background-color:#342E37}
+  to {background-color: #c1b9d0}
+}
